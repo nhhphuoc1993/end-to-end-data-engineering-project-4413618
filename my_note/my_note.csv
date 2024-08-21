@@ -1,0 +1,18 @@
+id|subject|description
+1|operting system used|windows 10 64 bit
+2|Activate.ps1 cannot be loaded because running scripts is disabled on this system|https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system
+3|command to create a virtual environment "venv"|python -m venv venv
+4|command to activate environment "env"|"venv\Scripts\activate " => it will run the file "C:\Users\nhhp\Documents\GitHub\end-to-end-data-engineering-project-4413618\venv\Scripts\activate.bat"
+5|command to activate environment "env"|"venv\Scripts\deactivate " => it will run the file "C:\Users\nhhp\Documents\GitHub\end-to-end-data-engineering-project-4413618\venv\Scripts\deactivate.bat"
+6|command to install all dependencies|pip install -e ".[dev]"
+7|error filename too long| https://stackoverflow.com/questions/22575662/filename-too-long-in-git-for-windows
+8|command to run airbyte after cloning https://github.com/airbytehq/airbyte.git and accessing folder airbyte|run-ab-platform.sh
+9|error "postgres:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections" when creating source Postgres on Airbyte|ensure the docker container "big-star-container" has already been run, and the username & password between the config on Airbyte abd the config on tab Inspect of the container are similar
+10|term "export" is not recognized as the name of a cmdlet, function, script file, or operable program|https://stackoverflow.com/questions/26368306/export-is-not-recognized-as-an-internal-or-external-command
+11|https://www.linkedin.com/learning/end-to-end-data-engineering-project/initiating-your-dbt-project?resume=false|after active virtual environment venv, use command "call venv.bat"(https://www.youtube.com/watch?v=nYr9qwW48uw) to run the bat file to run to setup environment variables instead of manually running 1 by 1 each time you active the environment. Another approach is that you can update the above activate.bat (Note that this activate.bat is being ignored from pushing into git repository) so that you do not need to run the above command "call venv.bat" seperatedly . Another approach is that you can use "setx" to instead of "set" for the command "set" of venv.bat to setup environment variables at systematic Windows 10 level which applying into all environments (Note that it will overwrite the existing ones) (https://stackoverflow.com/questions/13222724/command-line-to-remove-an-environment-variable-from-the-os-level-configuration)
+
+CURRENT VIDEO FOR SETUP-ING|https://www.linkedin.com/learning/end-to-end-data-engineering-project/challenge-add-a-freshness-check?autoSkip=true&resume=false
+
+==================================================================================================================================================================
+
+==================================================================================================================================================================

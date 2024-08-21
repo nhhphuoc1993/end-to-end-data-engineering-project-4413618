@@ -1,8 +1,0 @@
-subject|description
-operting system used|windows 10 64 bit
-Activate.ps1 cannot be loaded because running scripts is disabled on this system|https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system
-command to create a virtual environment 'venv'|python -m venv venv
-command to activate environment 'env'|venv\Scripts\activate 
-command to install all dependencies|pip install -e ".[dev]"
-
-CURRENT VIDEO FOR SETUP-ING|https://www.linkedin.com/learning/end-to-end-data-engineering-project/setting-up-your-data-warehouse?autoSkip=true&resume=false
