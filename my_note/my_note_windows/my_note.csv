@@ -1,0 +1,9 @@
+subject|description
+operting system used|windows 10 64 bit
+error "Activate.ps1 cannot be loaded because running scripts is disabled on this system"|https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system
+command to create a virtual environment "venv"|python -m venv venv
+command to activate environment "env"|"venv\Scripts\activate" => it runs the file "C:\Users\nhhp\Documents\GitHub\hands-on-introduction-data-engineering-4395021\venv\Scripts\activate.bat"
+command to de-activate environment "env"|"venv\Scripts\deactivate"
+https://www.linkedin.com/learning/hands-on-introduction-data-engineering/installing-airflow-23800633?autoSkip=true&resume=false|BEFORE INSTALLING airflow, run command "venv.bat" to add environment variables
+https://www.linkedin.com/learning/hands-on-introduction-data-engineering/installing-airflow-23800633?autoSkip=true&resume=false|refer to images 20240906_1204.* and 20240911_0810.*
+not see webserver_config.py|you can run the command "airflow webserver -D" to create the file. However, you will get error according to the image 20240911_2315.airflow_webserver.png. The reason is https://stackoverflow.com/questions/77482386/no-module-name-pwd =>>>>>>>>>>>>>, ZIP the folder airflow into airflow.zip THEN MOVE the zip file into folder my_note. AFTER THAT, MOVE TO USE NEW OPERATING SYSTEM Windows Subsystem for Linux with Ubuntu => the further notes and related documents will be put in folder my_note_ubuntu

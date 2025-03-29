@@ -1,0 +1,1 @@
+set AIRFLOW_HOME=C:\Users\nhhp\Documents\GitHub\hands-on-introduction-data-engineering-4395021\airflow

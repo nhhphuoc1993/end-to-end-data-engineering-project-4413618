@@ -1,0 +1,5 @@
+subject|description
+operting system used|"Windows Subsystem for Linux with Ubuntu" => refer to the last note of my_note.csv in the folder my_note to see the reason why not using Windows
+process of install pip, airflow, etc. based on https://stackoverflow.com/questions/32378494/how-to-run-airflow-on-windows(https://coding-stream-of-consciousness.com/2018/11/06/apache-airflow-windows-10-install-ubuntu/)|
+
+CURRENT|https://www.linkedin.com/learning/hands-on-introduction-data-engineering/installing-airflow-23800633?autoSkip=true&resume=false from from 5:20
